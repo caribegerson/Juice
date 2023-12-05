@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Horusec Scan
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
       - name: Run Horusec
         id: run_horusec
-        uses: caribegerson/Juice@v2.8.0
+        uses: caribegerson/Juice@v2.311.0
         with:
           arguments: -c=horusec-config.json -p ./
