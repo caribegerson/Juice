@@ -11,6 +11,6 @@ jobs:
 
       - name: Run Horusec
         id: run_horusec
-        uses: caribegerson/Juice@v2.311.0
+        uses: caribegerson/Juice@v0.2.2
         with:
           arguments: -c=horusec-config.json -p ./
