@@ -1,6 +1,6 @@
 name: Horusec Scan
 
-on: [push]
+on: [pull_request]
 
 jobs:
   checking_code:
@@ -8,8 +8,8 @@ jobs:
     name: Horusec Scan
     steps:
       - uses: actions/checkout@v2
-
       - name: Run Horusec
         id: run_horusec
-        with:
-          arguments: -c=horusec-config.json -p ./
+        run: |
+              curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
+               horusec start -p ./
