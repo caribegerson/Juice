@@ -17,7 +17,7 @@
     "shell": ""
   },
   "horusecCliCustomRulesPath": "",
-  "horusecCliDisableDocker": false,
+  "horusecCliDisableDocker": true,
   "horusecCliEnableCommitAuthor": false,
   "horusecCliEnableGitHistoryAnalysis": false,
   "horusecCliEnableInformationSeverity": false,
