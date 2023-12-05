@@ -3,12 +3,15 @@ name: Horusec Scan
 on: [push]
 
 jobs:
-  checking_code:
+  horusec-security:
+    name: horusec-security
     runs-on: ubuntu-latest
-    name: Horusec Scan
     steps:
-      - uses: actions/checkout@v3
-      - name: Run Horusec
-        id: run_horusec
-        run: |
-            docker run -v /var/run/docker.sock:/var/run/docker.sock -v $(pwd):/src/horusec horuszup/horusec-cli:latest horusec start -p /src/horusec -P $(pwd)
+    - name: Check out code
+      uses: actions/checkout@v3
+      with: # Necessário quando habilitado o autores de commit
+        fetch-depth: 0
+    - name: Running Horusec Security
+      run: |
+        curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
+        horusec start -p="./" -e="true" 
