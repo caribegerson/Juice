@@ -18,12 +18,12 @@
   },
   "horusecCliCustomRulesPath": "",
   "horusecCliDisableDocker": true,
-  "horusecCliEnableCommitAuthor": false,
-  "horusecCliEnableGitHistoryAnalysis": false,
+  "horusecCliEnableCommitAuthor": true,
+  "horusecCliEnableGitHistoryAnalysis": true,
   "horusecCliEnableInformationSeverity": true,
   "horusecCliEnableOwaspDependencyCheck": true,
   "horusecCliEnableShellcheck": true,
-  "horusecCliFalsePositiveHashes": null,
+  "horusecCliFalsePositiveHashes": true,
   "horusecCliFilesOrPathsToIgnore": [
     "*tmp*",
     "**/.vscode/**"
