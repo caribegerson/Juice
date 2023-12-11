@@ -38,7 +38,7 @@
   "horusecCliRepositoryAuthorization": "b157eb0c-25a1-4a20-9e40-1d81408d5d52",
   "horusecCliRepositoryName": "juice-shop",
   "horusecCliReturnErrorIfFoundVulnerability": false,
-  "horusecCliRiskAcceptHashes": null,
+  "horusecCliRiskAcceptHashes": "9e6f6f3d9314b809f704d66e707ff2e7702600ed00ff64b17f26e1884749c14f",
   "horusecCliSeveritiesToIgnore": [
     "INFO"
   ],
