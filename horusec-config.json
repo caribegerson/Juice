@@ -18,20 +18,20 @@
   },
   "horusecCliCustomRulesPath": "",
   "horusecCliDisableDocker": true,
-  "horusecCliEnableCommitAuthor": false,
+  "horusecCliEnableCommitAuthor": true,
   "horusecCliEnableGitHistoryAnalysis": false,
-  "horusecCliEnableInformationSeverity": false,
-  "horusecCliEnableOwaspDependencyCheck": false,
-  "horusecCliEnableShellcheck": false,
+  "horusecCliEnableInformationSeverity": true,
+  "horusecCliEnableOwaspDependencyCheck": true,
+  "horusecCliEnableShellcheck": true,
   "horusecCliFalsePositiveHashes": null,
   "horusecCliFilesOrPathsToIgnore": [
     "*tmp*",
     "**/.vscode/**"
   ],
   "horusecCliHeaders": {},
-  "horusecCliHorusecApiUri": "http://127.0.0.1:8043",
+  "horusecCliHorusecApiUri": "http://0.0.0.0:8000",
   "horusecCliJsonOutputFilepath": "",
-  "horusecCliLogFilePath": "/tmp/horusec-2023-12-05-09-56-18.log",
+  "horusecCliLogFilePath": "/tmp/horusec-2023-12-06-09-30-50.log",
   "horusecCliMonitorRetryInSeconds": 15,
   "horusecCliPrintOutputType": "",
   "horusecCliProjectPath": "/home/gel/juice-shop",
@@ -40,7 +40,7 @@
   "horusecCliReturnErrorIfFoundVulnerability": false,
   "horusecCliRiskAcceptHashes": null,
   "horusecCliSeveritiesToIgnore": [
-    "INFO"
+    ""
   ],
   "horusecCliShowVulnerabilitiesTypes": [
     "Vulnerability"
