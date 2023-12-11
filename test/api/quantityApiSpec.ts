@@ -52,7 +52,7 @@ describe('/api/Quantitys', () => {
       headers: jsonHeader,
       body: {
         email: `accountant@${config.get('application.domain')}`,
-        password: 'i am an awesome accountant'
+        //password: 'i am an awesome accountant'
       }
     })
       .expect('status', 200)
