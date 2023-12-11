@@ -40,7 +40,7 @@
   "horusecCliReturnErrorIfFoundVulnerability": false,
   "horusecCliRiskAcceptHashes": null,
   "horusecCliSeveritiesToIgnore": [
-    ""
+    "INFO"
   ],
   "horusecCliShowVulnerabilitiesTypes": [
     "Vulnerability"
