@@ -23,7 +23,11 @@
   "horusecCliEnableInformationSeverity": true,
   "horusecCliEnableOwaspDependencyCheck": true,
   "horusecCliEnableShellcheck": true,
-  "horusecCliFalsePositiveHashes": null,
+  "horusecCliFalsePositiveHashes": [
+    "9e6f6f3d9314b809f704d66e707ff2e7702600ed00ff64b17f26e1884749c14f",
+    "e429d3700f2caa375805324483be7dd56e6ca233d192cc03cb616992a9d3866e",
+    "9f99148801b648e4ddbd394baa57fc58936a9bc51b7b480e7762806243ab5810"
+  ],
   "horusecCliFilesOrPathsToIgnore": [
     "*tmp*",
     "**/.vscode/**"
@@ -38,7 +42,7 @@
   "horusecCliRepositoryAuthorization": "b157eb0c-25a1-4a20-9e40-1d81408d5d52",
   "horusecCliRepositoryName": "juice-shop",
   "horusecCliReturnErrorIfFoundVulnerability": false,
-  "horusecCliRiskAcceptHashes": "9e6f6f3d9314b809f704d66e707ff2e7702600ed00ff64b17f26e1884749c14f",
+  "horusecCliRiskAcceptHashes": null,
   "horusecCliSeveritiesToIgnore": [
     "INFO"
   ],
